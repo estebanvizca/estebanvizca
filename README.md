@@ -27,9 +27,9 @@ I'm a telecommunications engineer based in Ibarra, Ecuador, working where **netw
 
 | Project | What it does | Result |
 |:--|:--|:--|
-| **[Local Docs RAG Assistant](https://github.com/estebanvizca/local-docs-rag-assistant)**<br>`Python` `Ollama` `SQLite` | Answers questions about your own PDFs and manuals with page-level citations — or an explicit "not enough information". Fully local, no cloud API. | 24-question held-out eval · **0** external API calls |
-| **[I/Q Modulation Classifier](https://github.com/estebanvizca/synthetic-iq-modulation-classifier)**<br>`DSP` `scikit-learn` | Classifies BPSK, QPSK and 8-PSK signals from raw I/Q samples across SNR levels. | **0.959** macro-F1 · **1.00** from +5 dB |
-| **[Network QoS Classifier](https://github.com/estebanvizca/network-qos-classifier)**<br>`FastAPI` `scikit-learn` | Diagnoses a degraded link as latency, packet loss or jitter, and shows the measurements behind each call. | **1.00** macro-F1 on unseen scenarios |
+| **[Local Docs RAG Assistant](https://github.com/estebanvizca/local-docs-rag-assistant)**<br>`Python` `RAG` | Answers questions about your own PDFs and manuals with page-level citations — or an explicit "not enough information". Fully local, no cloud API. | 24-question held-out eval · **0** external API calls |
+| **[I/Q Modulation Classifier](https://github.com/estebanvizca/synthetic-iq-modulation-classifier)**<br>`DSP` `sklearn` | Classifies BPSK, QPSK and 8-PSK signals from raw I/Q samples across SNR levels. | **0.959** macro-F1 · **1.00** from +5 dB |
+| **[Network QoS Classifier](https://github.com/estebanvizca/network-qos-classifier)**<br>`FastAPI` `sklearn` | Diagnoses a degraded link as latency, packet loss or jitter, and shows the measurements behind each call. | **1.00** macro-F1 on unseen scenarios |
 | **[Technical Ticket Triage](https://github.com/estebanvizca/technical-ticket-triage)**<br>`NLP` `TF-IDF` | Routes support tickets by category and priority, with a confidence gate that sends uncertain cases to a human. | **0.99** macro-F1 · **1.00** urgent recall |
 | **[Hand-Gesture Gallery](https://github.com/estebanvizca/hand-gesture-gallery-controller)**<br>`MediaPipe` `Pygame` | Controls an image gallery with three webcam gestures, plus a keyboard fallback. | 21 landmarks/frame · **600 ms** cooldown |
 
@@ -37,17 +37,17 @@ I'm a telecommunications engineer based in Ibarra, Ecuador, working where **netw
 
 ### Toolbox
 
-**Languages & data** · `Python` `C++17` `SQL` `Bash` `pandas` `NumPy`
-**Machine learning** · `PyTorch` `TensorFlow/Keras` `scikit-learn` `XGBoost` `model evaluation`
-**Data & backend** · `PostgreSQL` `SQLite` `Redis` `Airflow` `FastAPI` `Flask` `Docker`
-**Networks & systems** · `TCP/IP` `MPLS` `BGP` `OSPF` `MQTT` `Wireshark` `Linux` `ESP-IDF`
+- **Languages & data** — `Python` `C++17` `SQL` `Bash` `pandas` `NumPy`
+- **Machine learning** — `PyTorch` `TensorFlow/Keras` `scikit-learn` `XGBoost` `model evaluation`
+- **Data & backend** — `PostgreSQL` `SQLite` `Redis` `Airflow` `FastAPI` `Flask` `Docker`
+- **Networks & systems** — `TCP/IP` `MPLS` `BGP` `OSPF` `MQTT` `Wireshark` `Linux` `ESP-IDF`
 
 ### Experience & education
 
-- **Warehouse Lead** · MANSUERA S.A. — 2026–present　　 Built and run a Flask + PostgreSQL inventory system for ~3,000 parts; recurring stock checks went from 4–5 h to 1–2 h.
-- **Network & Cybersecurity Lab Support** · Universidad Técnica del Norte — 2021–2026　　 Docker attack/defence scenarios, lab network deployments and routing troubleshooting, often remote over SSH.
-- **BSc Telecommunications Engineering** · UTN — 2021–2026　　 Thesis: adaptive IoT cipher selection, **19.41 µs** fuzzy and **54.57 µs** neural inference under 1 KB of RAM.
-- **Machine Learning Developer Career** · Anyone AI — 2026　　 450+ hours of applied ML.
+- **Warehouse Lead** · MANSUERA S.A. — 2026–present<br>Built and run a Flask + PostgreSQL inventory system for ~3,000 parts; recurring stock checks went from 4–5 h to 1–2 h.
+- **Network & Cybersecurity Lab Support** · Universidad Técnica del Norte — 2021–2026<br>Docker attack/defence scenarios, lab network deployments and routing troubleshooting, often remote over SSH.
+- **BSc Telecommunications Engineering** · UTN — 2021–2026<br>Thesis: adaptive IoT cipher selection, **19.41 µs** fuzzy and **54.57 µs** neural inference under 1 KB of RAM.
+- **Machine Learning Developer Career** · Anyone AI — 2026<br>450+ hours of applied ML.
 
 ### GitHub Analytics
 
