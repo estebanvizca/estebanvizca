@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="t d">
+  <title id="t">Esteban Vizcaíno — Telecommunications Engineer</title>
+  <desc id="d">Dark banner with teal and violet gradients, a network of nodes and the text: Telecommunications Engineer, Esteban Vizcaíno, Python · Data · Machine Learning, Open to remote roles.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070c17"/>
+      <stop offset="0.55" stop-color="#0a1120"/>
+      <stop offset="1" stop-color="#0b1626"/>
+    </linearGradient>
+
+    <radialGradient id="tealGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#14b8a6" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#14b8a6" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="violetGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="0.55" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14b8a6" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#8b5cf6" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .orb-a { animation: drift-a 16s ease-in-out infinite; }
+      .orb-b { animation: drift-b 20s ease-in-out infinite; }
+      .net { animation: bob 11s ease-in-out infinite; }
+      .dot { animation: blink 3.4s ease-in-out infinite; }
+      .dot-2 { animation-delay: 1.2s; }
+      .dot-3 { animation-delay: 2.1s; }
+      .pill-dot { animation: blink 2.6s ease-out infinite; }
+
+      @keyframes drift-a {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(26px, -18px); }
+      }
+      @keyframes drift-b {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(-30px, 20px); }
+      }
+      @keyframes bob {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-7px); }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 0.35; }
+        50% { opacity: 1; }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .orb-a, .orb-b, .net, .dot, .dot-2, .dot-3, .pill-dot { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1280" height="340" fill="url(#bg)"/>
+  <rect width="1280" height="340" fill="url(#grid)"/>
+
+  <g class="orb-a">
+    <circle cx="150" cy="30" r="330" fill="url(#tealGlow)"/>
+  </g>
+  <g class="orb-b">
+    <circle cx="1180" cy="330" r="360" fill="url(#violetGlow)"/>
+  </g>
+
+  <g class="net" stroke-linecap="round">
+    <circle cx="1040" cy="190" r="140" fill="none" stroke="url(#ringGrad)" stroke-opacity="0.16"/>
+
+    <g stroke="#2dd4bf" stroke-opacity="0.22" stroke-width="1.2">
+      <line x1="860" y1="190" x2="930" y2="120"/>
+      <line x1="930" y1="120" x2="1010" y2="155"/>
+      <line x1="1010" y1="155" x2="1090" y2="95"/>
+      <line x1="1090" y1="95" x2="1170" y2="140"/>
+      <line x1="1170" y1="140" x2="1210" y2="225"/>
+      <line x1="1210" y1="225" x2="1120" y2="265"/>
+      <line x1="1120" y1="265" x2="1030" y2="240"/>
+      <line x1="1030" y1="240" x2="960" y2="285"/>
+      <line x1="960" y1="285" x2="900" y2="250"/>
+      <line x1="900" y1="250" x2="860" y2="190"/>
+    </g>
+
+    <g stroke="#8b5cf6" stroke-opacity="0.26" stroke-width="1.2">
+      <line x1="1010" y1="155" x2="1030" y2="240"/>
+      <line x1="1090" y1="95" x2="1120" y2="265"/>
+      <line x1="930" y1="120" x2="1030" y2="240"/>
+      <line x1="900" y1="250" x2="1010" y2="155"/>
+    </g>
+
+    <g fill="#2dd4bf">
+      <circle cx="860" cy="190" r="4"/>
+      <circle class="dot" cx="930" cy="120" r="5"/>
+      <circle cx="1010" cy="155" r="4"/>
+      <circle class="dot dot-2" cx="1090" cy="95" r="5"/>
+      <circle cx="1170" cy="140" r="4"/>
+    </g>
+    <g fill="#a78bfa">
+      <circle cx="1210" cy="225" r="4"/>
+      <circle class="dot dot-3" cx="1120" cy="265" r="5"/>
+      <circle cx="1030" cy="240" r="4"/>
+      <circle cx="960" cy="285" r="4"/>
+      <circle cx="900" cy="250" r="4"/>
+    </g>
+
+    <g fill="none" stroke="#ffffff" stroke-opacity="0.07">
+      <circle cx="930" cy="120" r="13"/>
+      <circle cx="1090" cy="95" r="13"/>
+      <circle cx="1120" cy="265" r="13"/>
+    </g>
+  </g>
+
+  <text x="72" y="105" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="13" font-weight="600" letter-spacing="3.6" fill="#2dd4bf">
+    TELECOMMUNICATIONS ENGINEER
+  </text>
+
+  <text x="72" y="172" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="60" font-weight="800" letter-spacing="-1.6">
+    <tspan fill="#f1f5f9">Esteban </tspan>
+    <tspan fill="url(#nameGrad)">Vizcaíno</tspan>
+  </text>
+
+  <text x="72" y="211" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="21" font-weight="400" fill="#94a3b8">
+    Python · Data · Machine Learning
+  </text>
+
+  <g>
+    <rect x="72" y="244" width="238" height="34" rx="17" fill="#14b8a6" fill-opacity="0.08" stroke="#2dd4bf" stroke-opacity="0.35"/>
+    <circle class="pill-dot" cx="94" cy="261" r="3.5" fill="#2dd4bf"/>
+    <text x="108" y="266" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif"
+          font-size="13" font-weight="500" fill="#a7f3ea">
+      Open to remote roles
+    </text>
+  </g>
+
+  <rect x="0" y="338" width="1280" height="2" fill="url(#lineGrad)"/>
+</svg>
