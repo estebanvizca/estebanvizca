@@ -52,13 +52,8 @@ I'm a telecommunications engineer based in Ibarra, Ecuador, working where **netw
 ### GitHub Analytics
 
 <div align="center">
-  <table>
-    <tr>
-      <td><img height="170" src="https://github-readme-stats.vercel.app/api?username=estebanvizca&show_icons=true&hide_rank=true&include_all_commits=true&count_private=true&bg_color=0D1117&border_color=1F2A3A&title_color=2DD4BF&icon_color=2DD4BF&text_color=94A3B8" alt="Esteban's GitHub stats"></td>
-      <td><img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=estebanvizca&layout=compact&langs_count=6&bg_color=0D1117&border_color=1F2A3A&title_color=2DD4BF&text_color=94A3B8" alt="Most used languages"></td>
-    </tr>
-  </table>
-  <sub>Generated live from my public repositories.</sub>
+  <img src="./assets/github-analytics.svg" alt="GitHub analytics: public repositories, project repositories and languages by code volume" width="100%">
+  <sub>Regenerated monthly from the public GitHub API — no third-party services.</sub>
 </div>
 
 ### Let's build something measurable

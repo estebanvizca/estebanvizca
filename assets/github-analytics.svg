@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="244" viewBox="0 0 1000 244" role="img" aria-labelledby="t">
+  <title id="t">GitHub analytics for estebanvizca: 7 public repositories, 5 project repositories, 4 languages. Main language: Python.</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0d1728"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#14b8a6" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#14b8a6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14b8a6" stop-opacity="0.7"/>
+      <stop offset="0.6" stop-color="#8b5cf6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .label { font: 600 10px "Inter", "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: 1.8px; fill: #64748b; }
+      .value { font: 800 42px "Inter", "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -1.5px; fill: #f1f5f9; }
+      .caption { font: 600 9.5px "Inter", "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: 1.4px; fill: #7c8ba1; }
+      .lang { font: 500 11.5px "Inter", "Segoe UI", Helvetica, Arial, sans-serif; fill: #cbd5e1; }
+      .pct { font: 500 11px "JetBrains Mono", ui-monospace, Menlo, monospace; fill: #94a3b8; }
+      .head { font: 500 10.5px "JetBrains Mono", ui-monospace, Menlo, monospace; letter-spacing: 1.2px; fill: #64748b; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="244" rx="14" fill="url(#bg)" stroke="#1f2a3a"/>
+  <rect width="1000" height="244" rx="14" fill="url(#glow)"/>
+
+  <text x="44" y="42" class="head">GITHUB ANALYTICS</text>
+  <text x="956" y="42" class="head" text-anchor="end">@ESTEBANVIZCA</text>
+
+  <text x="44" y="114" class="value">07</text><text x="44" y="140" class="caption">PUBLIC REPOSITORIES</text><text x="206" y="114" class="value">05</text><text x="206" y="140" class="caption">PROJECT REPOSITORIES</text><text x="368" y="114" class="value">04</text><text x="368" y="140" class="caption">LANGUAGES</text>
+
+  <line x1="470" y1="70" x2="470" y2="176" stroke="#1f2a3a"/>
+
+  <text x="520" y="72" class="label">LANGUAGES BY CODE VOLUME</text>
+  <text x="520" y="112" class="lang">Python</text><rect x="596" y="104" width="296" height="7" rx="3.5" fill="#1b2637"/><rect x="596" y="104" width="249" height="7" rx="3.5" fill="url(#bar)"/><text x="956" y="112" class="pct" text-anchor="end">84.1%</text><text x="520" y="142" class="lang">HTML</text><rect x="596" y="134" width="296" height="7" rx="3.5" fill="#1b2637"/><rect x="596" y="134" width="30" height="7" rx="3.5" fill="url(#bar)"/><text x="956" y="142" class="pct" text-anchor="end">10.2%</text><text x="520" y="172" class="lang">CSS</text><rect x="596" y="164" width="296" height="7" rx="3.5" fill="#1b2637"/><rect x="596" y="164" width="15" height="7" rx="3.5" fill="url(#bar)"/><text x="956" y="172" class="pct" text-anchor="end">5.0%</text><text x="520" y="202" class="lang">JavaScript</text><rect x="596" y="194" width="296" height="7" rx="3.5" fill="#1b2637"/><rect x="596" y="194" width="4" height="7" rx="3.5" fill="url(#bar)"/><text x="956" y="202" class="pct" text-anchor="end">0.7%</text>
+
+  <line x1="0" y1="242" x2="1000" y2="242" fill="none" stroke="url(#line)" stroke-width="2"/>
+  <text x="44" y="222" class="caption">UPDATED OCT 2026 · PUBLIC DATA ONLY · NO THIRD-PARTY SERVICES</text>
+</svg>
